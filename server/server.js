@@ -11,14 +11,7 @@ const app = express();
 
 // ✅ ENABLE CORS FIRST (Before other middleware)
 app.use(cors({
-    origin: [
-        'http://localhost:3000',
-        'http://localhost:5173',
-        'http://localhost:5174',
-        'http://127.0.0.1:3000',
-        'https://pc-builder-pro-omega.vercel.app',  // Your Vercel URL
-        'https://*.vercel.app'  // Allow all Vercel preview deployments
-    ],
+    origin: true, //Allow all origins
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
