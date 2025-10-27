@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="@pcbuildcluster.1cihut4.mongodb.net" uuid="adf8c16b-ebc4-479b-8f86-80c27e367f46">
+      <driver-ref>mongo.4</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb+srv://pcbuildcluster.1cihut4.mongodb.net/?appName=PCBuildCluster</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
