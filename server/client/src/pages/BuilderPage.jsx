@@ -90,7 +90,7 @@ const BuilderPage = () => {
                     >
                         <h2
                             style={{
-                                fontFamily: '"Trade Winds", sans-serif',
+                                fontFamily: '"Bebas Neue", sans-serif',
                                 color: 'var(--color-text-primary)',
                                 fontWeight: 400,
                                 letterSpacing: '0.01em',
